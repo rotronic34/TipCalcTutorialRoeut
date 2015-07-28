@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		225CBF651B671CD300A280D3 /* TipCalcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225CBF641B671CD300A280D3 /* TipCalcModel.swift */; };
 		22FAD09E1B66C27300C1FC94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FAD09D1B66C27300C1FC94 /* AppDelegate.swift */; };
 		22FAD0A01B66C27300C1FC94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FAD09F1B66C27300C1FC94 /* ViewController.swift */; };
 		22FAD0A31B66C27300C1FC94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FAD0A11B66C27300C1FC94 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		225CBF641B671CD300A280D3 /* TipCalcModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalcModel.swift; sourceTree = "<group>"; };
 		22FAD09A1B66C27300C1FC94 /* TipCalculatorRoeut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculatorRoeut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FAD09D1B66C27300C1FC94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22FAD09F1B66C27300C1FC94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		22FAD0911B66C27300C1FC94 = {
 			isa = PBXGroup;
 			children = (
+				225CBF641B671CD300A280D3 /* TipCalcModel.swift */,
 				22FAD09C1B66C27300C1FC94 /* TipCalculatorRoeut */,
 				22FAD0B11B66C27300C1FC94 /* TipCalculatorRoeutTests */,
 				22FAD0BC1B66C27300C1FC94 /* TipCalculatorRoeutUITests */,
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22FAD0A01B66C27300C1FC94 /* ViewController.swift in Sources */,
+				225CBF651B671CD300A280D3 /* TipCalcModel.swift in Sources */,
 				22FAD09E1B66C27300C1FC94 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,6 +487,7 @@
 				22FAD0C41B66C27300C1FC94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22FAD0C51B66C27300C1FC94 /* Build configuration list for PBXNativeTarget "TipCalculatorRoeutTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +496,7 @@
 				22FAD0C71B66C27300C1FC94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22FAD0C81B66C27300C1FC94 /* Build configuration list for PBXNativeTarget "TipCalculatorRoeutUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +505,7 @@
 				22FAD0CA1B66C27300C1FC94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
